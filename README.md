@@ -1,5 +1,6 @@
 # General Overview
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 This repository contains code for the IEEE Fraud Detection competition on Kaggle. The goal of the competition is to predict whether a transaction is fraudulent or not based on various features. The code uses denoising autoencoders for feature engineering and trains a simple neural network with 5-fold stratified cross-validation using focal loss, Wilcoxon Mann Whitney U statistic, and binary cross-entropy with stochastic weight averaging and snapshot ensembling. The final predictions are obtained by taking the mean of the predictions of three models.
 
 ## Preprocessing and Feature Engineering
